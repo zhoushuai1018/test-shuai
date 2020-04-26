@@ -83,7 +83,7 @@ public class JingController {
     }
 
 
-    @RequestMapping("qqw")
+    @RequestMapping("qqw222")
     public String qq(int id){
 
         Yin yin= ss.chaqian(id);
