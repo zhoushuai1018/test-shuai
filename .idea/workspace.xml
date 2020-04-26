@@ -93,8 +93,13 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< Updated upstream
     <option name="x" value="360" />
     <option name="y" value="66" />
+=======
+    <option name="x" value="609" />
+    <option name="y" value="50" />
+>>>>>>> Stashed changes
     <option name="width" value="1314" />
     <option name="height" value="914" />
   </component>
