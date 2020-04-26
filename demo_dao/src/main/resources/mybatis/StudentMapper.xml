@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bw.mapper.JingMapper">
+<!--    <resultMap id="BaseResultMap" type="com.bw.pojo.Goods">-->
+<!--        <id column="" property=""/>-->
+<!--        <result column="" property=""/>-->
+<!--        <result column="" property=""/>-->
+<!--        <result column="" property=""/>-->
+<!--        <result column="" property=""/>-->
+<!--    </resultMap>-->
+   <select id="getList" resultType="com.bw.pojo.Jing">
+       select * from jing
+   </select>
+
+    <select id="calist" resultType="com.bw.pojo.Jing" parameterType="int">
+       select * from jing where jid=#{jid}
+   </select>
+
+
+    <select id="cha" resultType="com.bw.pojo.Yin" >
+       select * from yin
+   </select>
+
+    <insert id="tian" parameterType="com.bw.pojo.Gou">
+        insert into gou set  yage=#{yage}, zong=#{zong}, id=#{id},
+         zdate=#{zdate}, jid=#{jid}
+    </insert>
+
+    <select id="list2" resultType="com.bw.pojo.GouVo">
+       select * from gou g, jing j,yin y where  g.jid=j.jid and g.id=y.id and j.jname like '%${mohu}%'
+   </select>
+
+    <delete id="tui" parameterType="int">
+        delete from gou where yid=#{yid}
+
+    </delete>
+
+    <select id="chaqian" resultType="com.bw.pojo.Yin" parameterType="int">
+       select * from yin where id=#{id}
+   </select>
+
+    <update id="xiu">
+        update yin set qian= #{v} where id=#{id} ;
+    </update>
+
+    <update id="xiu2">
+        update jing set age= age-#{yage} where jid=#{jid} ;
+    </update>
+
+    <select id="chag" resultType="com.bw.pojo.Gou" parameterType="int">
+       select * from gou where yid=#{yid}
+   </select>
+
+    <update id="xiu3">
+        update jing set age= age+#{yage} where jid=#{jid} ;
+    </update>
+
+    <update id="xiu4">
+        update yin set qian= qian+#{zong} where id=#{id} ;
+    </update>
+</mapper>

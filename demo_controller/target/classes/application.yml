@@ -1,0 +1,22 @@
+server:
+  port: 8082
+
+# Spring 配置
+spring:
+  application:
+    name: demo_controller
+#  redis:
+#    host: localhost
+#  rabbitmq:
+#    host: 127.0.0.1
+# dubbo 配置
+dubbo:
+  application:            #应用配置，用于配置当前应用信息，不管该应用是提供者还是消费者。
+    name: demo_controller
+  registry:                 #注册中心配置，用于配置连接注册中心相关信息。
+    address: zookeeper://192.168.25.140:2181
+  protocol:     #协议配置，用于配置提供服务的协议信息，协议由提供方指定，消费方被动接受。
+    name: dubbo
+    port: 20881
+  version: 1.0.0
+

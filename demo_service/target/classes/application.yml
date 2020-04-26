@@ -1,0 +1,53 @@
+server:
+  port: 8081
+
+#配置日志
+logging:
+  level:
+    com.bw: debug # 配置日志级别
+  path: "D:/test" #配置日志输出的文件路径
+
+# dubbo 配置
+dubbo:
+  application:            #应用配置，用于配置当前应用信息，不管该应用是提供者还是消费者。
+    name: demo_service
+  registry:                 #注册中心配置，用于配置连接注册中心相关信息。
+    address: zookeeper://192.168.25.140:2181
+  protocol:     #协议配置，用于配置提供服务的协议信息，协议由提供方指定，消费方被动接受。
+    name: dubbo
+    port: 20880
+  scan:
+    base-packages: com.bw.service.impl
+  version: 1.0.0
+
+
+
+# Spring 配置
+spring:
+  application:
+    name: demo_service
+  datasource:
+    # mysql
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/week1?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
+    username: root
+    password: 1018
+
+
+# mybatis 配置
+mybatis:
+  # 映射文件
+  mapper-locations: classpath:mybatis/*.xml
+  # 实体娄
+  type-aliases-package: com.bw.pojo
+  configuration:
+    # 自动开启大小写转换
+    map-underscore-to-camel-case: true
+
+# 分页信息
+pagehelper:
+  supportMethodsArguments: true
+  reasonable: true
+  helperDialect: mysql
+  params: count=countSql
+
