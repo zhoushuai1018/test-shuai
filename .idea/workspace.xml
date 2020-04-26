@@ -2,45 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c6b352-b2ce-4ca2-87a6-565da84b3e52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_controller/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_controller/src/main/java/com/bw/ControllerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_controller/src/main/java/com/bw/controller/JingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_controller/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_controller/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_controller/target/classes/com/bw/ControllerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_controller/target/classes/com/bw/controller/JingController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_dao/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_dao/src/main/java/com/bw/mapper/JingMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_dao/src/main/resources/mybatis/StudentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_dao/target/classes/com/bw/mapper/JingMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_dao/target/classes/mybatis/StudentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_interface/src/main/java/com/bw/service/JingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_interface/target/classes/com/bw/service/JingService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_pojo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_pojo/src/main/java/com/bw/pojo/Gou.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_pojo/src/main/java/com/bw/pojo/GouVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_pojo/src/main/java/com/bw/pojo/Jing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_pojo/src/main/java/com/bw/pojo/Yin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_pojo/target/classes/com/bw/pojo/Gou.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_pojo/target/classes/com/bw/pojo/GouVo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_pojo/target/classes/com/bw/pojo/Jing.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_pojo/target/classes/com/bw/pojo/Yin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_service/src/main/java/com/bw/ServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_service/src/main/java/com/bw/service/impl/JingServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_service/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_service/target/classes/com/bw/ServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_service/target/classes/com/bw/service/impl/JingServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week1zhou.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/demo1git.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_controller/src/main/java/com/bw/controller/JingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_controller/src/main/java/com/bw/controller/JingController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,7 +24,17 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo_controller/src/main/java/com/bw/controller/JingController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -92,8 +67,8 @@
         <option value="$PROJECT_DIR$/demo_interface/src/main/java/com/bw/service/JingService.java" />
         <option value="$PROJECT_DIR$/demo_service/src/main/java/com/bw/service/impl/JingServiceImpl.java" />
         <option value="$PROJECT_DIR$/demo_dao/src/main/java/com/bw/mapper/JingMapper.java" />
-        <option value="$PROJECT_DIR$/demo_controller/src/main/java/com/bw/controller/JingController.java" />
         <option value="$PROJECT_DIR$/demo_dao/src/main/resources/mybatis/StudentMapper.xml" />
+        <option value="$PROJECT_DIR$/demo_controller/src/main/java/com/bw/controller/JingController.java" />
       </list>
     </option>
   </component>
@@ -118,10 +93,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="895" />
-    <option name="y" value="29" />
+    <option name="x" value="757" />
+    <option name="y" value="78" />
     <option name="width" value="1314" />
-    <option name="height" value="914" />
+    <option name="height" value="880" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -129,9 +104,75 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demo1git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo1git" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo1git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo1git" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo1git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo1git" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo1git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo1git" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo1git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo1git" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo1git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo1git" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo1git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo1git" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo1git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo1git" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bw" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,21 +251,23 @@
       <workItem from="1584664636557" duration="1418000" />
       <workItem from="1584774032201" duration="994000" />
       <workItem from="1587893262082" duration="656000" />
+      <workItem from="1587894514994" duration="93000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12636000" />
+    <option name="totallyTimeSpent" value="12729000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="895" y="29" width="1314" height="914" extended-state="0" />
+    <frame x="757" y="78" width="1314" height="880" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.27033493" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.27432218" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -242,7 +285,7 @@
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.33075932" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.34589502" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -259,162 +302,28 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-988">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_controller/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_pojo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_interface/src/main/java/com/bw/service/JingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_service/src/main/java/com/bw/ServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_service/src/main/java/com/bw/service/impl/JingServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="78" column="29" lean-forward="true" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1084#1085#0" expanded="true" />
-            <element signature="e#1236#1237#0" expanded="true" />
-            <element signature="e#1273#1274#0" expanded="true" />
-            <element signature="e#1319#1320#0" expanded="true" />
-            <element signature="e#1358#1359#0" expanded="true" />
-            <element signature="e#1423#1424#0" expanded="true" />
-            <element signature="e#1460#1461#0" expanded="true" />
-            <element signature="e#1519#1520#0" expanded="true" />
-            <element signature="e#1556#1557#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_dao/src/main/java/com/bw/mapper/JingMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_controller/src/main/java/com/bw/ControllerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_dao/src/main/resources/mybatis/StudentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/demo_controller/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/demo_dao/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/demo_interface/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/demo_pojo/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/demo_service/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/demo_interface/src/main/java/com/bw/service/JingService.java" />
+    <entry file="file://$PROJECT_DIR$/demo_service/src/main/java/com/bw/ServiceApplication.java" />
+    <entry file="file://$PROJECT_DIR$/demo_service/src/main/java/com/bw/service/impl/JingServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/demo_dao/src/main/java/com/bw/mapper/JingMapper.java" />
+    <entry file="file://$PROJECT_DIR$/demo_controller/src/main/java/com/bw/ControllerApplication.java" />
+    <entry file="file://$PROJECT_DIR$/demo_dao/src/main/resources/mybatis/StudentMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/demo_controller/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/demo_service/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/demo_pojo/src/main/java/com/bw/pojo/Gou.java" />
+    <entry file="file://$PROJECT_DIR$/demo_pojo/src/main/java/com/bw/pojo/Yin.java" />
+    <entry file="file://$PROJECT_DIR$/demo_pojo/src/main/java/com/bw/pojo/Jing.java" />
+    <entry file="file://$PROJECT_DIR$/demo_pojo/src/main/java/com/bw/pojo/GouVo.java" />
     <entry file="file://$PROJECT_DIR$/demo_controller/src/main/java/com/bw/controller/JingController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1481">
-          <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_controller/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="31" column="42" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_pojo/src/main/java/com/bw/pojo/Gou.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_pojo/src/main/java/com/bw/pojo/Yin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_pojo/src/main/java/com/bw/pojo/Jing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_pojo/src/main/java/com/bw/pojo/GouVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="223">
+          <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
         </state>
       </provider>
     </entry>
